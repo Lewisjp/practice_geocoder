@@ -13,6 +13,8 @@ def index
   @locations = Location.all
   @ip = request.ip
   @city = request.location.city
+  @iptoaddress = Geocoder.search(@ip)
+
 end
 
   # GET /locations/1
