@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'geocoder'
+gem 'geoip'
 
 gem 'rails', '3.2.14'
 
